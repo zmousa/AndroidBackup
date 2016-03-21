@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="text_size0">9sp</dimen>
+    <dimen name="text_size1">10sp</dimen>
+    <dimen name="text_size2">12sp</dimen>
+    <dimen name="text_size3">14sp</dimen>
+    <dimen name="text_size4">16sp</dimen>
+    <dimen name="text_size5">18sp</dimen>
+    <dimen name="text_size6">20sp</dimen>
+    <dimen name="text_size7">22sp</dimen>
+    <dimen name="text_size8">80sp</dimen>
+</resources>

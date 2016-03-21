@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android Backup</string>
+    <string name="action_settings">Settings</string>
+    <string name="backup_contacts">Backup Contacts</string>
+    <string name="android_backup">Android Backup</string>
+    <string name="backup_call_log">Backup Call Log</string>
+    <string name="backup_gallery_images">Backup Gallery Images</string>
+</resources>

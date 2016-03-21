@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/android_backup"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size4"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_background"
+                android:onClick="btnBackupContacts_Click"
+                android:padding="10dp"
+                android:text="@string/backup_contacts"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size4"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_background"
+                android:onClick="btnBackupCallLog_Click"
+                android:padding="10dp"
+                android:text="@string/backup_call_log"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size4"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_background"
+                android:onClick="btnBackupGalleryImages_Click"
+                android:padding="10dp"
+                android:text="@string/backup_gallery_images"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size4"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
